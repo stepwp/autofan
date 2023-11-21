@@ -7,7 +7,7 @@
 <!ENTITY launch    "Settings/FanSettings">
 <!ENTITY pluginURL "https://raw.githubusercontent.com/stepwp/autofan/master/unRAIDv6/&name;.plg">
 <!ENTITY source    "/boot/config/plugins/&name;/&name;">
-<!ENTITY MD5       "a5c7e44eb5f9caa261469260dbd5459e">
+<!ENTITY MD5       "ce04ee51855a9fa92cca59d1f046c9a9">
 ]>
 
 <PLUGIN name="&name;" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" min="6.9.0">
