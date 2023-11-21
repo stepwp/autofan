@@ -2,10 +2,10 @@
 
 <!DOCTYPE PLUGIN [
 <!ENTITY name      "dynamix.system.autofan">
-<!ENTITY author    "Bergware/gfjardim">
+<!ENTITY author    "stepwp/autofan">
 <!ENTITY version   "2023.02.05a">
 <!ENTITY launch    "Settings/FanSettings">
-<!ENTITY pluginURL "https://raw.githubusercontent.com/bergware/dynamix/master/unRAIDv6/&name;.plg">
+<!ENTITY pluginURL "https://raw.githubusercontent.com/stepwp/autofan/master/unRAIDv6/&name;.plg">
 <!ENTITY source    "/boot/config/plugins/&name;/&name;">
 <!ENTITY MD5       "a5c7e44eb5f9caa261469260dbd5459e">
 ]>
@@ -14,7 +14,8 @@
 
 <CHANGES>
 ##&name;
-
+###2023.11.21
+- add CPU TEMP
 ###&version;
 - set minimum Unraid version to 6.9 (supports multi-language)
 - added support for upcoming Unraid version 6.12 
@@ -109,7 +110,7 @@ fi
 
 <!-- SOURCE PACKAGE -->
 <FILE Name="&source;.txz" Run="upgradepkg --install-new --reinstall">
-<URL>https://raw.githubusercontent.com/bergware/dynamix/master/archive/&name;.txz</URL>
+<URL>https://raw.githubusercontent.com/stepwp/autofan/master/archive/&name;.txz</URL>
 <MD5>&MD5;</MD5>
 </FILE>
 
